@@ -7,6 +7,7 @@ A machine learning project for predicting employee salary based on features such
 SmartSalary is a machine learning project that predicts employee salaries using workforce and job-related attributes. The project demonstrates a complete machine learning workflow, including data preprocessing, exploratory data analysis, feature engineering, model training, evaluation, and feature importance analysis.
 
 The objective is to understand the factors that influence employee compensation and build a predictive model capable of estimating salaries accurately.
+
 ![alt text](image.png)
 ![alt text](image-1.png)
 ---
