@@ -17,3 +17,11 @@ data/
 
 # VS Code
 .vscode/
+
+
+models/*.pkl
+venv/
+__pycache__/
+.ipynb_checkpoints/
+
+models/*.pkl

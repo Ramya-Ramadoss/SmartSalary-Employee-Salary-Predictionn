@@ -95,6 +95,17 @@ Evaluation metrics:
 The Random Forest model achieved excellent predictive performance, explaining approximately 96% of salary variation.
 
 ---
+## Model File
+
+The trained model file is not included in the repository because it exceeds GitHub's file size limitations.
+
+To reproduce the model:
+
+1. Run the notebook in the `notebooks` folder.
+2. Train the Random Forest model.
+3. Save the model using Joblib.
+4. Place the generated model file inside the `models` directory.
+
 
 ## Feature Importance Analysis
 
@@ -154,12 +165,57 @@ SmartSalary-Employee-Salary-Prediction
 * Git and GitHub
 
 ---
+## Streamlit Web Application
+
+A web-based salary prediction interface was developed using Streamlit.
+
+Users can enter:
+
+* Experience Years
+* Skills Count
+* Certifications
+* Job Title
+* Education Level
+* Industry
+* Company Size
+* Location
+* Remote Work Preference
+
+The application processes user inputs, applies the same feature structure used during model training, and predicts employee salary using the trained Random Forest model.
+
+### Application Features
+
+* Interactive user interface
+* Real-time salary prediction
+* Machine learning model integration
+* Easy-to-use dropdown-based inputs
+* End-to-end deployment workflow
+
+### How to Run
+
+1. Clone the repository
+
+```bash
+git clone <repository-url>
+```
+
+2. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+3. Launch Streamlit
+
+```bash
+cd app
+streamlit run app.py
+```
+
+4. Open the generated local URL in your browser.
 
 ## Future Improvements
 
-* Implement XGBoost and LightGBM
-* Deploy using Streamlit
-* Add interactive salary prediction dashboard
 * Introduce salary recommendation features
 * Perform advanced hyperparameter tuning
 
