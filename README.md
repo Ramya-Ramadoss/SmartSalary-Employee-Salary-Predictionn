@@ -1,5 +1,5 @@
 <p align="center">
-  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:56AB2F,100:A8E063&text=SALARY%20PREDICTION%20&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
+  <img src="https://capsule-render.vercel.app/api?type=waving&height=250&color=0:56AB2F,100:A8E063&text=SALARY%20PREDICTOR%20APP&fontSize=55&fontColor=ffffff&animation=fadeIn&fontAlignY=40"/>
 </p>
 
 <div align="center">
